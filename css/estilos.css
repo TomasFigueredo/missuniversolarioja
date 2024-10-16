@@ -464,8 +464,9 @@ footer{
     }
 
     .sponsor_img1{
-        width: 250px;
+        width: 280px;
         height: 150px;
+        margin-top: 20px;
     }
     
     .sponsor_img2{
