@@ -209,6 +209,10 @@ ul li{
     align-self: center;
 }
 
+.sub_div_equipo:last-of-type{
+    grid-column: 1/-1;
+}
+
 .a_equipo{
     text-decoration: none;
     transition: 0.2s ease;
@@ -272,7 +276,15 @@ ul li{
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
-    grid-column: 1/-1;
+}
+
+.sponsor_img5{
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    object-fit: contain;
 }
 
 
