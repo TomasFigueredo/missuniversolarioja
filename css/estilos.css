@@ -248,46 +248,44 @@ ul li{
 .div_img_sponsor{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     align-items: center;
     justify-content: center;
+    gap: 50px;
     padding-bottom: 45px;
 }
 
 .sponsor_img1{
     width: 500px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
+
 }
 
 .sponsor_img4{
     width: 400px;
     height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
 }
 
 .sponsor_img3{
     width: 400px;
     height: 400px;
-    margin-right: auto;
-    margin-left: auto;
     border-radius: 20px;
 }
 
 .sponsor_img5{
     width: 400px;
     height: 400px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 20px;
     object-fit: contain;
 }
 
-
+.sponsor_img{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    object-fit: contain
+}
 
 
 /*////////////////////////////////////////////////FOOTER////////////////////////////////////////////////*/
